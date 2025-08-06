@@ -9,9 +9,9 @@ root_agent = Agent(
    # https://google.github.io/adk-docs/get-started/streaming/quickstart-streaming/#supported-models
    model="gemini-2.0-flash",  # for example: model="gemini-2.0-flash-live-001" or model="gemini-2.0-flash-live-preview-04-09"
    # A short description of the agent's purpose.
-   description="Agent to answer questions using Google Search.",
+   description="Agent to find latest news articles on a given topic.",
    # Instructions to set the agent's behavior.
-   instruction="You are an expert researcher. You always stick to the facts.",
+   instruction="You are a news search agent. Your task is to find the latest news articles on a given topic. Use the provided tools to perform searches and gather information. You need to gather only the top 20 latest news search results from Google",
    # Add google_search tool to perform grounding with Google search.
    tools=[google_search]
 )
