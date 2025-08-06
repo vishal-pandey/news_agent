@@ -3,7 +3,7 @@ import json
 import uuid
 
 # API endpoints
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://news-agent.codeshare.live"
 
 def create_session(user_id=None):
     if user_id is None:
