@@ -20,14 +20,14 @@ root_agent = Agent(
                               "title": "<Title of the article>",
                               "url": "<URL of the article>",
                               "description": "<Short description of the article>",
-                              "date": "<Date of the article>",
+                              "date": "<Date of the article in format yyyy-MM-ddTHH:mm:ss.ssssss e.g, 2023-10-01T12:00:00.000000>",
                               "content": "<Detailed summary of the article in at least 200 words>"
                         },
                         {
                               "title": "<Title of the article>",
                               "url": "<URL of the article>",
                               "description": "<Short description of the article>",
-                              "date": "<Date of the article>",
+                              "date": "<Date of the article in format yyyy-MM-ddTHH:mm:ss.ssssss e.g, 2023-10-01T12:00:00.000000>",
                               "content": "<Detailed summary of the article in at least 200 words>"
                         }
                         // Add more articles as needed
